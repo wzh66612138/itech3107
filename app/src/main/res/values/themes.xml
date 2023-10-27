@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Teaching01" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">#E9E9E9</item>
+        <item name="android:colorBackground">@android:color/holo_green_light</item>
+        <item name="android:textColorPrimary">@android:color/holo_green_light</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:buttonStyle">@style/MyButtonStyle</item>
+        <item name="android:editTextStyle">@style/MyEditTextStyle</item>
+    </style>
+
+    <style name="MyEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#351717</item>
+        <item name="android:background">@drawable/edittext_rounded_border</item>
+    </style>
+    <style name="MyButtonStyle">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:shape">oval</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#A8DCFF</item>
+    </style>
+
+    <style name="Theme.Teaching01" parent="Base.Theme.Teaching01" />
+</resources>
